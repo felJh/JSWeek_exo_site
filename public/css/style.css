@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 1em 'Trebuchet MS';
+    background-color: blanchedalmond;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.darkMode{
+    background-color: rgb(38, 38, 38) !important;
+    color: bisque !important;
+}
+
+.changeFont{
+    font-size: 2rem !important;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    background: rgba(160, 61, 61, 0.742);
+    color: bisque;
+}
+
+.zoom{
+    font-size: 1.1em;
+    background: rgba(241, 229, 93, 0.178);
+    border: 0.1em solid rgba(128, 128, 128, 0.39);
+    float: left;
+    width: 45%;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+
+#header{
+    background: rgba(160, 61, 61, 0.742);
+    color: blanchedalmond;
+    font-size: 1.3em;
+}
+
+.headContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.navi{
+
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.344);
+    color: beige;
+    float: left;
+    width: 15vw;
+}
+
+.navBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: sticky;
+    top: 0;
+
+    
+}
+
+section{
+    width: 60vw;
+    margin: auto;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.section2 p{
+    padding: 1rem;
+
+}
+
+.btnP2{
+    margin: auto !important;
+}
+
